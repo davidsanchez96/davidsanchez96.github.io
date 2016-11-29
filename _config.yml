@@ -6,11 +6,11 @@ email: david.sanchez96@outlook.com
 copyright_name: David Camilo Sanchez Mora
 description: "Online Territory of David Camilo Sanchez Mora"
 baseurl: "" #base url is for when the site is not at the root but at some subdirectory.
-url: davidsanchez96@github.io #only used in disque comments for now
-disqus_url: davidsanchez96@github.io # disque comments are broken if you send http:// along with url
+url: davidsanchez96.github.io #only used in disque comments for now
+disqus_url: davidsanchez96.github.io # disque comments are broken if you send http:// along with url
 github_username:  davidsanchez96
-facebook_username:  shikherverma1
-stackoverflow_username: 
+facebook_username:  
+stackoverflow_username:
 collections:
   - portfolio
 
