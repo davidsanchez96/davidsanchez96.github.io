@@ -1,8 +1,8 @@
 ---
-anchor: tributepage
+anchor: tribute
 title: tribute
 image: img/portfolio/project0.png
-description: I have been the coordinator of Google Developer Group IIT Kanpur since December 2015. During which I have organized a number of events. Other than one off events (like Google Summer of Code, Women Tech Makers Meetup, IO Extended) I have also organized 2 courses; Android Study Jam and CS for Android which spanned for about 8 weeks. During which we had weekly meetups. You can visit the  <a href="http://gplus.to/gdgiitk">g+ page</a> for photos of all these events.
+description: I have been the coordinator of Google Developer Group IIT Kanpur since December 2015. During which I have organized a number of events. Other than one off events (like Google Summer of Code, Women Tech Makers Meetup, IO Extended) I have also organized 2 courses; Android Study Jam and CS for Android which spanned for about 8 weeks. During which we had weekly meetups. You can visit the  <a href="http://gplus.to/gdgiitk">g+ page</a> for photos of all these events. I have been the coordinator of Google Developer Group IIT Kanpur since December 2015. During which I have organized a number of events. Other than one off events (like Google Summer of Code, Women Tech Makers Meetup, IO Extended) I have also organized 2 courses; Android Study Jam and CS for Android which spanned for about 8 weeks. During which we had weekly meetups. You can visit the  <a href="http://gplus.to/gdgiitk">g+ page</a> for photos of all these events.
 team: David Camilo Sanchez Mora
 date: November 2016
 category: FrontEnd
