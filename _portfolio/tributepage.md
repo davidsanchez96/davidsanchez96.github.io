@@ -2,8 +2,8 @@
 anchor: tributepage
 title: Front End Project Tribute Page
 image: img/portfolio/project0.png
-description: I've been learning by my own in www.freecodecamp.com.
-team: David Camilo Sanchez Mora
+description: I've been learning by my own in www.freecodecamp.com, The source code can be found <a href="http://codepen.io/davidsanchez96/pen/GNmWxE">here</a>
+team: Single
 date: November 2016
 category: FrontEnd
 ---
