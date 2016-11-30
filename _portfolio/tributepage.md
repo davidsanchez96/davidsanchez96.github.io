@@ -2,7 +2,7 @@
 anchor: Tribute Page
 title: Tribute
 image: img/portfolio/project0.png
-description: I've been learning by my own in www.freecodecamp.com. I really appreciate that kind of websites even tough it's free, it's good quality study material and challenges. By far I've just completed the first challenge of the item called Basic Front End Development Projects.
+description: I have been the coordinator of Google Developer Group IIT Kanpur since December 2015. During which I have organized a number of events. Other than one off events (like Google Summer of Code, Women Tech Makers Meetup, IO Extended) I have also organized 2 courses; Android Study Jam and CS for Android which spanned for about 8 weeks. During which we had weekly meetups. You can visit the  <a href="http://gplus.to/gdgiitk">g+ page</a> for photos of all these events.
 team: David Camilo Sanchez Mora
 date: November 2016
 category: FrontEnd
