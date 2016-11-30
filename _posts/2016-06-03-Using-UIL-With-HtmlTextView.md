@@ -4,7 +4,7 @@ title: "My Personal Hero"
 subtitle: ""
 date: 2016-11-24 23:32:00
 author: "David Camilo Sanchez Mora"
-header-img: "img/posts/stevejobs.jpg"
+header-img: "img/posts/sj.jpg"
 comments: true
 tags: [ Hero ]
 ---
