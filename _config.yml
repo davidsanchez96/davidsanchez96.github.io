@@ -9,8 +9,10 @@ baseurl: "" #base url is for when the site is not at the root but at some subdir
 url:  #only used in disque comments for now
 disqus_url:  # disque comments are broken if you send http:// along with url
 github_username:  davidsanchez96
-facebook_username:
+facebook_username: david.sanchezmora.39
 stackoverflow_username:
+twitter_username:  deividsanchez96
+codepen_username: davidsanchez96
 collections:
   - portfolio
 
