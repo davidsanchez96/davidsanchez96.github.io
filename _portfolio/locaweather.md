@@ -1,9 +1,9 @@
 ---
-anchor: gitlecture
-title: Git Lecture
+anchor: localweather
+title: Local Weather
 image: img/portfolio/project3.png
-description: I took a lecture on using git and github. Which was a part of SnT summer workshops of IIT Kanpur. This was the largest lecture I have taken till now. About 100+ people attended this lecture. <a href="https://www.facebook.com/media/set/?set=a.542618692591305.1073741854.234540613399116">Photos of the lecture.</a>
+description: The second challenge of the Intermediate Front End Development Project's section, The live demo and source code can be found <a href="http://codepen.io/davidsanchez96/pen/rWzqBo">here</a>. Using Bootstrap framework, jQuery & APIs.
 team: Single
-date: May 2016
-category: Events
+date: November 2016
+category: FrontEnd
 ---
