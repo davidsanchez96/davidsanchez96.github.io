@@ -44,9 +44,13 @@ header-img: "img/bg.jpg"
 				<img src="{{ item.image }}" class="img-responsive" alt="">
 			</a>
 		</div>
-		{% if loop.index % 3 == 0 %}
-       <div class="clearfix"></div>
-   	{% endif %}
+
+		{% assign mod = forloop.index | modulo: 3 %}
+    {% if mod == 0 %}
+        <div class="clearfix"></div>
+    {% else %}
+        <!-- odd -->
+    {% endif %}
 
 		{% endfor %}
 	</section>
