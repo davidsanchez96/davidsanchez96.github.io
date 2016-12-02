@@ -38,10 +38,10 @@ header-img: "img/bg.jpg"
 
     <div class="row">
 			{% for item in site.portfolio %}
-        <div class="col-md-3 filter {{ item.category }}">
+        <div class="col-sm-4 filter {{ item.category }}">
             <div class="each-item">
 							<a href="#{{ item.anchor }}" class="portfolio-link" data-keyboard="true" data-toggle="modal">
-                <img class="port-image" src="{{ item.image }}" style="min-height: 150px;"/>
+                <img class="port-image" src="{{ item.image }}"/>
                 <div class="cap1">
                     <h3>{{ item.title }}</h3>
                     <p>Category: {{ item.category }}</p>
