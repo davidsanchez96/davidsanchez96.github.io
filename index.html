@@ -39,15 +39,16 @@ header-img: "img/bg.jpg"
 			{% for item in site.portfolio %}
         <div class="col-md-3 filter photo">
             <div class="each-item">
+							<a href="#{{ item.anchor }}" class="portfolio-link" data-keyboard="true" data-toggle="modal">
                 <img class="port-image" src="{{ item.image }}"/>
                 <div class="cap1">
-                    <h3>Car show</h3>
-                    <p>A car showroom for all verities of cars to display</p>
+                    <h3>{{ item.title }}</h3>
+                    <p>Category: {{ item.category }}</p>
                 </div>
                 <div class="cap2">
-                    <p class="text-center">Visit</p>
+                    <p class="text-center">View</p>
                 </div>
-
+							</a>
             </div>
 
         </div>
