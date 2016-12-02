@@ -44,8 +44,7 @@ header-img: "img/bg.jpg"
 				<img src="{{ item.image }}" class="img-responsive" alt="">
 			</a>
 		</div>
-		{% capture modulo %}{{ forloop.index0 | mod:3 }}{% endcapture %}
-		{% if  loop.index % 3 == 0 %}
+		{% if loop.index % 3 == 0 %}
        <div class="clearfix"></div>
    	{% endif %}
 
