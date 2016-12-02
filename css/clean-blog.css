@@ -141,29 +141,6 @@ body{webkit-tap-highlight-color:#0085a1;}
 .portfolio-modal .modal-backdrop{display:none;opacity:0;}
 
 
-
-.port-image
-{
-    width: 100%;
-}
-
-.col-md-3
-{
-    margin-bottom:20px;
-}
-
-.each-item
-{
-    position:relative;
-    overflow:hidden;
-    min-height: 150px:
-}
-
-.each-item:hover .cap2, .each-item:hover .cap1
-{
-    left:0px;
-}
-
 .cap1
 {
     position:absolute;
@@ -188,4 +165,26 @@ body{webkit-tap-highlight-color:#0085a1;}
     padding:10px;
 
     transition: all .5s;
+}
+
+.port-image
+{
+    width: 100%;
+}
+
+.col-md-3
+{
+    margin-bottom:20px;
+}
+
+.each-item
+{
+    position:relative;
+    overflow:hidden;
+    min-height: 150px:
+}
+
+.each-item:hover .cap2, .each-item:hover .cap1
+{
+    left:0px;
 }
