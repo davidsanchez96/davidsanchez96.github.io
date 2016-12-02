@@ -45,9 +45,9 @@ header-img: "img/bg.jpg"
 			</a>
 		</div>
 		{% capture modulo %}{{ forloop.index0 | mod:3 }}{% endcapture %}
-		{% if modulo == '0'%}
-	    <div class="clearfix"></div>
-	  {% endif %}
+		{% if  loop.index % 3 == 0 %}
+       <div class="clearfix"></div>
+   	{% endif %}
 
 		{% endfor %}
 	</section>
