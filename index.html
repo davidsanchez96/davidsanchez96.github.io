@@ -45,11 +45,9 @@ header-img: "img/bg.jpg"
 			</a>
 		</div>
 
-		{% assign mod = forloop.index | modulo: 3 %}
+		{% assign mod = loop.index | modulo: 2 %}
     {% if mod == 0 %}
         <div class="clearfix"></div>
-    {% else %}
-        <!-- odd -->
     {% endif %}
 
 		{% endfor %}
