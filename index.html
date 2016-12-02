@@ -29,15 +29,16 @@ header-img: "img/bg.jpg"
 
     <div>
         <button class="btn btn-primary filter-button" data-filter="all">All</button>
-        <button class="btn btn-default filter-button" data-filter="photo">Photo</button>
-        <button class="btn btn-default filter-button" data-filter="graphic">Graphic</button>
-        <button class="btn btn-default filter-button" data-filter="webdesign">Web design</button>
+        <button class="btn btn-default filter-button" data-filter="FrontEnd">Frontend</button>
+        <button class="btn btn-default filter-button" data-filter="Data">Data Visualization</button>
+        <button class="btn btn-default filter-button" data-filter="BackEnd">Backend</button>
+				<button class="btn btn-default filter-button" data-filter="FullStack">Fullstack</button>
     </div>
     <br/>
 
     <div class="row">
 			{% for item in site.portfolio %}
-        <div class="col-md-3 filter photo">
+        <div class="col-md-3 filter {{ item.category }}">
             <div class="each-item">
 							<a href="#{{ item.anchor }}" class="portfolio-link" data-keyboard="true" data-toggle="modal">
                 <img class="port-image" src="{{ item.image }}"/>
@@ -50,7 +51,6 @@ header-img: "img/bg.jpg"
                 </div>
 							</a>
             </div>
-
         </div>
 				{% endfor %}
     </div>
