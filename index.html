@@ -22,8 +22,9 @@ header-img: "img/bg.jpg"
 </section>
 
 
-
-	<div class="">
+<!-- Portfolio Grid Section -->
+<section id="portfolio">
+	<div class="text-center">
 		<h2>Filtering divs</h2>
 	</div>
 
@@ -55,36 +56,7 @@ header-img: "img/bg.jpg"
 				{% endfor %}
     </div>
 
-
-
-<!-- Portfolio Grid Section -->
-<section id="portfolio">
-	<div class="row">
-		<div class="text-center">
-			<h2>Here's some of my work</h2>
-			<hr>
-		</div>
-	</div>
-
- <script type="text/javascript" src="http://www.designbootstrap.com/livedemos/2015/02/04/pink/assets/js/jquery.isotope.js"></script>
-
-	<div class="row">
-		{% for item in site.portfolio %}
-		<div class="col-sm-4 portfolio-item">
-			<a href="#{{ item.anchor }}" class="portfolio-link" data-keyboard="true" data-toggle="modal">
-				<div class="caption" >
-					<div class="caption-content" >
-						{{ item.title }}<p></p>
-						<i class="fa fa-search-plus"></i><p></p>
-						Category: {{ item.category }}
-					</div>
-				</div>
-				<img src="{{ item.image }}" class="img-responsive" alt="">
-			</a>
-		</div>
-
-		{% endfor %}
-	</section>
+</section>
 
 
 	<!-- Portfolio Modals -->
