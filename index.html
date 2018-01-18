@@ -1,7 +1,7 @@
 ---
 layout: page
-description: "Programmer Wannabe"
-header-img: "img/bg.jpg"
+description: "Web Developer"
+header-img: "img/bg.png"
 ---
 
 <!-- About Content -->
@@ -14,9 +14,12 @@ header-img: "img/bg.jpg"
 	<div>
 		<p>
 			Hi! My name is David Camilo Sanchez Mora, I'm from Bogotá, Colombia
-			I'm very passionate about learning the latest technologies in web development
-			I really like learn by own and every day I try to do my best
-			Hopefully one day I'll have a full time job as a web developer i'm very excited about it.
+		</p>
+		<p>
+			I'm very passionate about learning the latest technologies in Mobile and Web Development
+		</p>
+		<p>
+			I really like learn by own and every day I try to do my best.
 		</p>
 	</div>
 </section>
@@ -30,10 +33,8 @@ header-img: "img/bg.jpg"
 
     <div>
         <button class="btn btn-primary filter-button" data-filter="all">All</button>
-        <button class="btn btn-default filter-button" data-filter="FrontEnd">Frontend</button>
-        <button class="btn btn-default filter-button" data-filter="Data">Data Visualization</button>
-        <button class="btn btn-default filter-button" data-filter="BackEnd">Backend</button>
-				<button class="btn btn-default filter-button" data-filter="FullStack">Fullstack</button>
+        <button class="btn btn-default filter-button" data-filter="Web">Web</button>
+        <button class="btn btn-default filter-button" data-filter="ReactNative">React Native</button>
     </div>
     <br/>
 
@@ -76,7 +77,10 @@ header-img: "img/bg.jpg"
 							<div class="modal-body">
 								<h2>{{ item.title }}</h2>
 								<hr class="star-primary">
-								<img src="{{ item.image }}" class="img-responsive img-centered" alt="">
+								<div class="row text-center">
+									<img src="{{ item.image }}" class="rounded" style="display:inline-block;" alt="">
+								</div>
+								</div>
 								<p>{{ item.description }}</p>
 								<ul class="list-inline item-details">
 									<li>Team:
